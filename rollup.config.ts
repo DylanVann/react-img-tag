@@ -9,7 +9,7 @@ const pkg = require('./package.json')
 
 const input = 'src/index.ts'
 
-const external = []
+const external = ['react']
 
 const plugins = [
     // Allow json resolution

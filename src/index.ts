@@ -1,2 +1,2 @@
-export { default as add } from './add'
-export { default as sub } from './sub'
+export { imgTagString, ImgTagProps } from './imgTagString'
+export { ImgTag } from './ImgTag'

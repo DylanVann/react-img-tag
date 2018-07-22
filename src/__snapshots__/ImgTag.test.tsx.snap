@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<span
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "<img src=\\"\\" alt=\\"\\" />",
+    }
+  }
+/>
+`;
+
+exports[`renders with src 1`] = `
+<span
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "<img src=\\"test.png\\" alt=\\"\\" />",
+    }
+  }
+/>
+`;

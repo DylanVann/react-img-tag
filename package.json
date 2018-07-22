@@ -1,9 +1,12 @@
 {
-    "name": "--libraryname--",
+    "name": "react-img-tag",
     "version": "0.0.0",
-    "description": "--description--",
+    "description": "Render <img> in React using dangerouslySetInnerHTML.",
     "keywords": [
-        "--keywords--"
+        "react",
+        "img",
+        "tag",
+        "dangerouslySetInnerHTML"
     ],
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
@@ -12,10 +15,10 @@
     "files": [
         "dist"
     ],
-    "author": "--username-- <--usermail-->",
+    "author": "Dylan Vann <dylan@dylanvann.com> (https://dylanvann.com)",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/DylanVann/react-img-tag"
     },
     "license": "MIT",
     "scripts": {
@@ -80,6 +83,8 @@
     "devDependencies": {
         "@types/jest": "^23.3.0",
         "@types/node": "^10.0.3",
+        "@types/react": "^16.4.6",
+        "@types/react-test-renderer": "^16.0.1",
         "commitizen": "^2.9.6",
         "cz-conventional-changelog": "^2.0.0",
         "husky": "^0.14.0",
@@ -87,6 +92,8 @@
         "lint-staged": "^7.1.3",
         "lodash.camelcase": "^4.3.0",
         "prettier": "^1.13.4",
+        "react": "^16.4.1",
+        "react-test-renderer": "^16.4.1",
         "rimraf": "^2.6.1",
         "rollup": "^0.63.4",
         "rollup-plugin-commonjs": "^9.0.0",
@@ -102,5 +109,8 @@
         "tslint-config-standard": "^7.0.0",
         "typescript": "^2.6.2",
         "validate-commit-msg": "^2.12.2"
+    },
+    "peerDependencies": {
+        "react": "^16.4.1"
     }
 }

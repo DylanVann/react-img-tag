@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`outputs a string 1`] = `"<img src=\\"\\" alt=\\"\\" />"`;
+
+exports[`outputs a string with props 1`] = `"<img width=\\"20\\" height=\\"10\\" src=\\"image.png\\" srcset=\\"image.png\\" alt=\\"a description\\" title=\\"title\\" sizes=\\"the-sizes\\"  class=\\"test-class\\"/>"`;
