@@ -1,6 +1,6 @@
 import React from 'react'
-import { ImgTag } from './ImgTag'
 import renderer from 'react-test-renderer'
+import { ImgTag } from './ImgTag'
 
 it('renders', () => {
     const tree = renderer.create(<ImgTag />).toJSON()
