@@ -75,6 +75,7 @@
         "collectCoverage": true
     },
     "prettier": {
+        "trailingComma": "all",
         "semi": false,
         "singleQuote": true,
         "printWidth": 100,
