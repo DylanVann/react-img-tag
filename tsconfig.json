@@ -13,8 +13,9 @@
         "outDir": "dist",
         "typeRoots": ["node_modules/@types"],
         "jsx": "react",
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "noUnusedLocals": true
     },
     "include": ["src"],
-    "exclude": ["src/**/*.test.ts"]
+    "exclude": ["src/**/*.test.*"]
 }
